@@ -1,5 +1,5 @@
 {
-  "team_id": "1132200-qemer",
+  "team_id": "qemer",
   "domain": "coding_assistants",
   "language_scope": [
     "en"
@@ -14,7 +14,7 @@
   "cross_disciplinary_pairing": {
     "discipline": "education",
     "load_bearing": true,
-    "description": "Pairs coding assistance with education: the assistant is designed to teach rather than only answer, grounding code generation, debugging help, and programming tutoring in retrieval over technical documentation so explanations trace back to the actual language and library references a learner is working from. The target user is a developer or student in a low-connectivity African context with no reliable access to online docs, Stack Overflow, or hosted assistants, where an unreliable answer is worse than none. Retrieval is load-bearing by design: at 2B parameters the model is not expected to carry accurate API detail in its weights, so grounding is what makes tutoring trustworthy rather than an add-on. The offline documentation corpus is in active development and is not part of the artifact measured by this submission's profiler run."
+    "description": "Pairs coding assistance with education: the assistant is designed to teach rather than only answer, grounding code generation, debugging help, and programming tutoring in retrieval over technical documentation so explanations trace back to the actual language and library references a learner is working from. The target user is a developer or student in a low-connectivity African context with no reliable access to online docs, Stack Overflow, or hosted assistants, where an unreliable answer is worse than none. Retrieval is load-bearing by design: the model is not relied on to carry accurate, version-specific API detail in its weights, so grounding is what makes tutoring trustworthy rather than an add-on. The offline documentation corpus is in active development and is not part of the artifact measured by this submission's profiler run."
   },
   "test_prompts": [
     {
@@ -36,4 +36,4 @@
   "_runtime": {
     "model_path": "model/Qwen3.5-2B-Q4_K_M.gguf"
   }
-} 
+}
