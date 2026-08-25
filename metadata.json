@@ -9,7 +9,7 @@
   "submitter": {
     "name": "Eyob Hagos",
     "email": "eyob.g.hagos@gmail.com",
-    "github_handle": "https://github.com/hadamard-2"
+    "github_handle": "hadamard-2"
   },
   "cross_disciplinary_pairing": {
     "discipline": "education",
@@ -19,11 +19,11 @@
   "test_prompts": [
     {
       "prompt_id": "tp_001",
-      "prompt": "This Python function is meant to return the average of a list but raises ZeroDivisionError on some inputs:\n\n    def average(nums):\n        return sum(nums) / len(nums)\n\nExplain why it fails, what the caller most likely did wrong, and give a corrected version that handles the case sensibly."
+      "prompt": "Write a Python function named `greet` that takes a name string and returns `Hello, <name>!`. Include a docstring."
     },
     {
       "prompt_id": "tp_002",
-      "prompt": "Write a Python function that takes a list of dictionaries and a key name, and returns the dictionaries sorted by that key, placing entries missing the key at the end. Include a docstring."
+      "prompt": "This Python code should print 3 but fails:\n\n    print(1 + \"2\")\n\nState the issue and give the corrected one-line version."
     }
   ],
   "model": {

@@ -6,6 +6,12 @@ Fork this repository, fill in the required files, and submit your repository URL
 
 ---
 
+## Related project
+
+[Qemer](https://github.com/hadamard-2/qemer) is the companion open-source scaffold for a local, documentation-grounded coding assistant. It is not required by, or included in, this model-only profiler submission.
+
+---
+
 ## ✅ Submission Checklist
 
 Before submitting, confirm every item:
@@ -187,4 +193,3 @@ View the full eligibility rules at [adtc-2026.devpost.com/rules](https://adtc-20
 ## 📄 License
 
 This template is licensed under the terms of the [GNU GPL v3 License](LICENSE).
-
